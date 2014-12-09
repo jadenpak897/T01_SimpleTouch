@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *myLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel2;
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 
 @end
 
